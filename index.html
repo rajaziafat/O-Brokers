@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/dist/output.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="/js/index.js" defer></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"
+      defer
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="shortcut icon" href="./assets/ico.png" type="image/x-icon" />
+    <title>OBrokers</title>
+  </head>
+  <body>
+    <header
+      class="header transition-all duration-300 wrapper z-50 fixed top-0 left-0"
+    >
+      <div
+        style="display: none"
+        class="overlay bg-black lg:hidden block bg-opacity-60 w-full h-full z-[90] fixed top-0 left-0"
+      ></div>
+      <div class="contain py-4 justify-between items-center gap-6">
+        <div class="flex justify-start items-center gap-14">
+          <img
+            src="./assets/logo.png"
+            class="w-[140px] object-contain"
+            alt=""
+          />
+          <nav
+            class="menu lg:static fixed -right-full top-0 flex-col h-full w-full sm:max-w-[450px] bg-dark overflow-y-auto px-[3rem] z-[101] pt-[6rem] pb-[3rem] lg:flex-row lg:h-auto lg:w-auto lg:bg-transparent lg:max-w-none lg:overflow-visible lg:p-0 transition-all duration-700 flex justify-start items-center sm:items-start lg:items-center gap-6"
+          >
+            <a
+              href="#"
+              class="text-white text-lg font-medium underline underline-offset-[8px]"
+              >Home</a
+            >
+            <a href="#" class="text-white text-lg font-medium">About</a>
+            <a href="#" class="text-white text-lg font-medium">Brokers</a>
+            <a href="#" class="text-white text-lg font-medium">Sign Up</a>
+            <a href="#" class="text-white text-lg font-medium">Contact</a>
+            <div
+              class="flex lg:hidden sm:flex-row flex-col justify-center items-center gap-6"
+            >
+              <a href="#" class="text-white text-lg font-medium">Login</a>
+              <button
+                class="bg-white text-black px-7 py-3 hover:bg-black hover:text-white border-2 border-solid transition-all duration-300 border-white uppercase text-lg font-medium"
+              >
+                Get Started
+              </button>
+            </div>
+          </nav>
+        </div>
+        <button class="lg:hidden block menu-toggle z-[101] relative">
+          <img src="/assets/bars.svg" class="w-7 object-contain" alt="" />
+        </button>
+        <div class="hidden lg:flex justify-center items-center gap-8">
+          <a href="#" class="text-white text-lg font-medium">Login</a>
+          <button
+            class="bg-white text-black px-7 py-3 hover:bg-black hover:text-white border-2 border-solid transition-all duration-300 border-white uppercase text-lg font-medium"
+          >
+            Get Started
+          </button>
+        </div>
+      </div>
+    </header>
+    <section
+      class="wrapper md:pb-0 pb-14 md:pt-0 pt-[100px] bg-dark bg-center bg-no-repeat bg-cover bg-hero"
+    >
+      <div
+        class="contain md:h-screen md:min-h-[700px] justify-center flex-col gap-6 items-start"
+      >
+        <div>
+          <h4 class="text-white text-xl sm:text-3xl font-bold">
+            Own your future
+          </h4>
+          <h2 class="text-4xl sm:text-6xl font-bold text-white">
+            Grow with the <br class="sm:block hidden" />
+            Power of O
+          </h2>
+        </div>
+        <p class="text-[#8e8b8c] text-base font-normal max-w-[600px]">
+          Welcome to a realm where possibilities in real estate brokerage and
+          home building are limitless. Discover the transformative potential of
+          our platform — a force known simply as "0". Whether you're an
+          independent broker, a team leader, or at the helm of a vast agent
+          network, O's platform is your catalyst for elevated business
+          expansion. Bid farewell to the constraints of time, excessive costs,
+          and the inherent risks tied to conventional brokerage operations. With
+          0, your path to success is illuminated, and your journey is fortified.
+          Welcome to the future you've been waiting for.
+        </p>
+        <button
+          class="bg-white sm:w-auto w-full text-black px-10 py-3 hover:bg-black hover:text-white border-2 transition-all duration-300 border-solid border-white uppercase text-lg font-medium"
+        >
+          Partner with O
+        </button>
+      </div>
+    </section>
+    <section class="wrapper mt-10">
+      <div class="contain justify-start items-center flex-col gap-4 sm:gap-8">
+        <div class="flex justify-start items-center flex-col text-center">
+          <h4 class="text-black font-normal text-xl">Personal Brands</h4>
+          <h2 class="text-black text-4xl font-bold">Big Business</h2>
+          <p class="text-black text-base sm:text-left max-w-[800px] mt-2">
+            Imagine having the strength of a personal brand combined with the
+            resources of a large brokerage — that's the magic of the 0 Platform.
+            With 0, you retain your unique identity while gaining access to the
+            vast resources and support that big businesses enjoy. No more
+            sacrificing your power or commissions. Experience the best of both
+            worlds as you expand your reach, amplify your success, and watch
+            your business flourish like never before. Welcome to a new era of
+            growth and possibilities with the 0 Platform by your side.
+          </p>
+        </div>
+        <div
+          class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 w-full gap-6"
+        >
+          <div
+            class="bg-white shadow-xl p-8 w-full flex justify-start items-start flex-col gap-3"
+          >
+            <img src="/assets/admin.png" class="w-14 object-contain" alt="" />
+            <h4 class="text-xl font-semibold text-black leading-[1] mt-2 -mb-1">
+              Admin
+            </h4>
+            <p class="text-gray-500 font-normal text-base leading-[1.8]">
+              We help with everything admin related from Accounting, Legal
+              Advice and CRM to dealing with the Real estate commission, MLS
+              issues and more.
+            </p>
+          </div>
+          <div
+            class="bg-white shadow-xl p-8 w-full flex justify-start items-start flex-col gap-3"
+          >
+            <img src="/assets/coach.png" class="w-14 object-contain" alt="" />
+            <h4 class="text-xl font-semibold text-black leading-[1] mt-2 -mb-1">
+              Coaching & Learning
+            </h4>
+            <p class="text-gray-500 font-normal text-base leading-[1.8]">
+              We help with everything admin related from Accounting, Legal
+              Coaching is the number one thing that helps companies grow
+              exponentially. With 0 you get access to some of the best coaches
+              ready to help you succeed.
+            </p>
+          </div>
+          <div
+            class="bg-white shadow-xl p-8 w-full flex justify-start items-start flex-col gap-3"
+          >
+            <img src="/assets/network.png" class="w-14 object-contain" alt="" />
+            <h4 class="text-xl font-semibold text-black leading-[1] mt-2 -mb-1">
+              Network
+            </h4>
+            <p class="text-gray-500 font-normal text-base leading-[1.8]">
+              At 0 Brokers and Real estate agents work together to better
+              themselves and their businesses. Network with some of the best in
+              the field. Hear from The Best.
+            </p>
+          </div>
+          <div
+            class="bg-white shadow-xl p-8 w-full flex justify-start items-start flex-col gap-3"
+          >
+            <img src="/assets/list.png" class="w-14 object-contain" alt="" />
+            <h4 class="text-xl font-semibold text-black leading-[1] mt-2 -mb-1">
+              Preferred Vendors
+            </h4>
+            <p class="text-gray-500 font-normal text-base leading-[1.8]">
+              Get access to Full Title products in every state, prep school,
+              testing and Access to incredible lending programs and so much
+              more.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="wrapper bg-dark mt-10 pt-8 relative isolate sm:pb-0 pb-8">
+      <div
+        class="bg-white w-full bottom-0 left-0 absolute h-[20%] sm:block hidden -z-10"
+      ></div>
+      <div class="contain justify-start items-center flex-col sm:gap-8 gap-4">
+        <div class="flex justify-start items-center flex-col text-center">
+          <h4 class="text-white font-normal text-xl">Hear from</h4>
+          <h2 class="text-white text-4xl font-bold">The Best</h2>
+          <p class="text-white text-base sm:text-left max-w-[800px] mt-2">
+            Here's how 0 is changing the face of real estate
+          </p>
+        </div>
+        <div class="w-full relative">
+          <button
+            class="border absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 border-white border-solid rounded-full w-14 sm:w-24 aspect-square"
+          >
+            <p class="text-white font-normal text-sm sm:text-lg">Play</p>
+          </button>
+          <img
+            src="/assets/video-thumb.png"
+            class="w-full object-contain"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+    <section class="wrapper bg-[#f1f1f1] pt-8 mt-10 pb-8">
+      <div
+        class="contain xl:flex-row flex-col justify-between items-start gap-10"
+      >
+        <div
+          class="flex justify-start items-start max-w-[600px] flex-col gap-2 sm:gap-4"
+        >
+          <h2 class="text-black text-4xl font-bold">Not convinced yet?</h2>
+          <p class="text-black text-base sm:text-left max-w-[800px] mt-2">
+            Here is what our brokers and realtors say about 0!
+          </p>
+          <p class="text-black text-base sm:text-left max-w-[800px] mt-2">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis cute irure dolor in
+            reprehenderit in voluptate
+          </p>
+        </div>
+        <div
+          class="flex review justify-center items-center w-full xl:max-w-[600px]"
+        >
+          <div
+            class="splide"
+            role="group"
+            aria-label="Splide Basic HTML Example"
+          >
+            <div class="splide__track pb-12">
+              <ul class="splide__list">
+                <li class="splide__slide">
+                  <div
+                    class="flex justify-start items-start flex-col gap-6 max-w-[450px] p-8 bg-white shadow-xl"
+                  >
+                    <div class="flex justify-start items-center gap-2">
+                      <img
+                        src="/assets/star.svg"
+                        class="w-8 object-contain"
+                        alt=""
+                      />
+                      <img
+                        src="/assets/star.svg"
+                        class="w-8 object-contain"
+                        alt=""
+                      />
+                      <img
+                        src="/assets/star.svg"
+                        class="w-8 object-contain"
+                        alt=""
+                      />
+                      <img
+                        src="/assets/star.svg"
+                        class="w-8 object-contain"
+                        alt=""
+                      />
+                      <img
+                        src="/assets/star.svg"
+                        class="w-8 object-contain"
+                        alt=""
+                      />
+                    </div>
+                    <p
+                      class="text-black text-base sm:text-left max-w-[800px] mt-2"
+                    >
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                      Duis cute irure dolor in reprehenderit in voluptate
+                    </p>
+                    <div class="flex justify-start items-start gap-3">
+                      <div
+                        class="bg-black rounded-full w-14 aspect-square"
+                      ></div>
+                      <div
+                        class="flex justify-start items-start flex-col gap-2"
+                      >
+                        <h4 class="text-black text-xl font-bold">
+                          Ronda Richards
+                        </h4>
+                        <p class="text-blac font-normal text-base">Broker</p>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="splide__slide">
+                  <div
+                    class="flex justify-start items-start flex-col gap-6 max-w-[450px] p-8 bg-white shadow-xl"
+                  >
+                    <div class="flex justify-start items-center gap-2">
+                      <img
+                        src="/assets/star.svg"
+                        class="w-8 object-contain"
+                        alt=""
+                      />
+                      <img
+                        src="/assets/star.svg"
+                        class="w-8 object-contain"
+                        alt=""
+                      />
+                      <img
+                        src="/assets/star.svg"
+                        class="w-8 object-contain"
+                        alt=""
+                      />
+                      <img
+                        src="/assets/star.svg"
+                        class="w-8 object-contain"
+                        alt=""
+                      />
+                      <img
+                        src="/assets/star.svg"
+                        class="w-8 object-contain"
+                        alt=""
+                      />
+                    </div>
+                    <p
+                      class="text-black text-base sm:text-left max-w-[800px] mt-2"
+                    >
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                      Duis cute irure dolor in reprehenderit in voluptate
+                    </p>
+                    <div class="flex justify-start items-start gap-3">
+                      <div
+                        class="bg-black rounded-full w-14 aspect-square"
+                      ></div>
+                      <div
+                        class="flex justify-start items-start flex-col gap-2"
+                      >
+                        <h4 class="text-black text-xl font-bold">
+                          Ronda Richards
+                        </h4>
+                        <p class="text-blac font-normal text-base">Broker</p>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="splide__slide">
+                  <div
+                    class="flex justify-start items-start flex-col gap-6 max-w-[450px] p-8 bg-white shadow-xl"
+                  >
+                    <div class="flex justify-start items-center gap-2">
+                      <img
+                        src="/assets/star.svg"
+                        class="w-8 object-contain"
+                        alt=""
+                      />
+                      <img
+                        src="/assets/star.svg"
+                        class="w-8 object-contain"
+                        alt=""
+                      />
+                      <img
+                        src="/assets/star.svg"
+                        class="w-8 object-contain"
+                        alt=""
+                      />
+                      <img
+                        src="/assets/star.svg"
+                        class="w-8 object-contain"
+                        alt=""
+                      />
+                      <img
+                        src="/assets/star.svg"
+                        class="w-8 object-contain"
+                        alt=""
+                      />
+                    </div>
+                    <p
+                      class="text-black text-base sm:text-left max-w-[800px] mt-2"
+                    >
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                      Duis cute irure dolor in reprehenderit in voluptate
+                    </p>
+                    <div class="flex justify-start items-start gap-3">
+                      <div
+                        class="bg-black rounded-full w-14 aspect-square"
+                      ></div>
+                      <div
+                        class="flex justify-start items-start flex-col gap-2"
+                      >
+                        <h4 class="text-black text-xl font-bold">
+                          Ronda Richards
+                        </h4>
+                        <p class="text-blac font-normal text-base">Broker</p>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="flex justify-center items-center gap-1 mt-[50px] xl:mt-[130px]"
+      >
+        <h4 class="text-4xl font-bold text-black">Join</h4>
+        <img src="/assets/ico.png" class="w-10 object-contain" alt="" />
+        <h4 class="text-4xl font-bold text-black">Today</h4>
+      </div>
+    </section>
+    <footer class="wrapper bg-dark py-10 sm:py-20">
+      <div
+        class="contain justify-start items-start flex-col gap-10 lg:gap-[100px]"
+      >
+        <div
+          class="flex justify-between w-full lg:flex-row flex-col items-start lg:items-center gap-6 lg:gap-2"
+        >
+          <h2 class="text-white font-bold text-2xl sm:text-4xl lg:text-5xl">
+            Succeed with the power of O!
+          </h2>
+          <button
+            class="bg-white text-black px-5 sm:w-auto w-full sm:px-7 py-2 sm:py-3 hover:bg-black hover:text-white border-2 border-solid transition-all duration-300 border-white uppercase text-lg font-medium"
+          >
+            Get Started
+          </button>
+        </div>
+        <div
+          class="grid grid-cols-2 grid-rows-1 xl:flex justify-between items-start gap-5 w-full"
+        >
+          <div
+            class="col-start-1 col-span-2 row-start-1 flex justify-start items-start flex-col gap-5"
+          >
+            <img
+              src="/assets/footer-logo.png"
+              class="w-[160px] object-contain"
+              alt=""
+            />
+            <p class="max-w-[300px] text-white font-normal mt-1">
+              Lorem tempor incididunt ut labore et dolore magna commodo
+              consequat.
+            </p>
+            <p class="lg:max-w-[300px] text-white font-normal">
+              © 0 Brokers. All Rights Reserved.
+            </p>
+          </div>
+          <div
+            class="flex col-start-1 col-span-1 row-start-2 justify-start items-start flex-col gap-5"
+          >
+            <h5 class="text-white font-medium text-lg">Footer Links 1</h5>
+            <a href="#" class="max-w-[300px] text-white font-normal"> Link </a>
+            <a href="#" class="max-w-[300px] text-white font-normal"> Link </a>
+            <a href="#" class="max-w-[300px] text-white font-normal"> Link </a>
+            <a href="#" class="max-w-[300px] text-white font-normal"> Link </a>
+          </div>
+          <div
+            class="flex col-start-2 col-span-1 row-start-2 justify-start items-start flex-col gap-5"
+          >
+            <h5 class="text-white font-medium text-lg">Footer Links 2</h5>
+            <a href="#" class="max-w-[300px] text-white font-normal"> Link </a>
+            <a href="#" class="max-w-[300px] text-white font-normal"> Link </a>
+            <a href="#" class="max-w-[300px] text-white font-normal"> Link </a>
+            <a href="#" class="max-w-[300px] text-white font-normal"> Link </a>
+          </div>
+          <div
+            class="flex col-start-1 col-span-2 row-start-3 justify-start items-start flex-col gap-5"
+          >
+            <div>
+              <h5 class="text-white font-medium text-lg">Follow Us</h5>
+              <p class="text-white mt-2 font-normal text-lg">
+                Subscribe for the latest updates
+              </p>
+            </div>
+            <div class="flex justify-start items-center gap-5">
+              <a href="#" target="blank">
+                <img src="/assets/fb.svg" class="w-3 object-contain" alt="" />
+              </a>
+              <a href="#" target="blank">
+                <img
+                  src="/assets/insta.svg"
+                  class="w-5 object-contain"
+                  alt=""
+                />
+              </a>
+              <a href="#" target="blank">
+                <img
+                  src="/assets/twitter.svg"
+                  class="w-5 object-contain"
+                  alt=""
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
