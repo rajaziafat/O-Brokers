@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/dist/output.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="/js/index.js" defer></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"
+      defer
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="shortcut icon" href="./assets/ico.png" type="image/x-icon" />
+    <title>OBrokers</title>
+  </head>
+  <body>
+    <header
+      class="header inverted-header transition-all duration-300 wrapper z-50 fixed top-0 left-0"
+    >
+      <div
+        style="display: none"
+        class="overlay bg-black lg:hidden block bg-opacity-60 w-full h-full z-[90] fixed top-0 left-0"
+      ></div>
+      <div class="contain py-4 justify-between items-center gap-6">
+        <div class="flex justify-start items-center gap-14">
+          <img
+            src="./assets/logo-inverted.png"
+            class="w-[140px] object-contain"
+            alt=""
+          />
+          <nav
+            class="menu lg:static fixed -right-full top-0 flex-col h-full w-full sm:max-w-[450px] bg-dark overflow-y-auto px-[3rem] z-[101] pt-[6rem] pb-[3rem] lg:flex-row lg:h-auto lg:w-auto lg:bg-transparent lg:max-w-none lg:overflow-visible lg:p-0 transition-all duration-700 flex justify-start items-center sm:items-start lg:items-center gap-6"
+          >
+            <a
+              href="./index.html"
+              class="text-white lg:text-black text-lg lg:text-xs xl:text-lg font-medium"
+              >Home</a
+            >
+            <a
+              href="./about-us.html"
+              class="text-white lg:text-black text-lg lg:text-xs xl:text-lg font-medium"
+              >About</a
+            >
+            <a
+              href="./become-a-partner.html"
+              class="text-white lg:text-black text-lg lg:text-xs xl:text-lg font-medium"
+              >Become a Partner</a
+            >
+            <a
+              href="./platform.html"
+              class="text-white lg:text-black text-lg lg:text-xs xl:text-lg font-medium underline underline-offset-[8px]"
+              >The Platform</a
+            >
+            <a
+              href="#"
+              class="text-white lg:text-black text-lg lg:text-xs xl:text-lg font-medium"
+              >Contact</a
+            >
+            <div
+              class="flex lg:hidden sm:flex-row flex-col justify-center items-center gap-6"
+            >
+              <a
+                href="#"
+                class="text-white text-lg lg:text-xs xl:text-lg font-medium"
+                >Login</a
+              >
+              <button
+                class="bg-white text-black px-7 py-3 hover:bg-black hover:text-white border-2 border-solid transition-all duration-300 border-white uppercase text-lg font-medium"
+              >
+                Get Started
+              </button>
+            </div>
+          </nav>
+        </div>
+        <button class="lg:hidden block menu-toggle z-[101] relative">
+          <img
+            src="./assets/bars-inverted.svg"
+            class="w-7 object-contain"
+            alt=""
+          />
+        </button>
+        <div class="hidden right lg:flex justify-center items-center gap-8">
+          <a href="#" class="text-black text-lg font-medium">Login</a>
+          <button
+            class="bg-black text-white px-7 py-3 hover:bg-white hover:text-black border-2 border-solid transition-all duration-300 border-black uppercase text-lg font-medium"
+          >
+            Get Started
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <section
+      class="wrapper md:pb-0 pb-14 md:pt-0 pt-[100px] bg-dark bg-center bg-no-repeat bg-cover bg-platformHero"
+    >
+      <div
+        class="contain md:h-screen md:min-h-[700px] justify-center flex-col gap-6 items-start"
+      >
+        <div>
+          <h4 class="text-black text-xl font-light">
+            SEIZE THE REINS OF YOUR REAL ESTATE BUSINESS
+          </h4>
+          <h2 class="text-4xl sm:text-7xl font-bold text-black">
+            Own your Brand <br class="sm:block hidden" />
+            & Business
+          </h2>
+        </div>
+        <p class="text-[#8e8b8c] text-base font-normal max-w-[690px]">
+          Forge your own business and cultivate your own team with O by your
+          side. We'll be your steadfast support at every step of the journey.
+        </p>
+        <button
+          class="bg-black sm:w-auto w-full text-white px-10 py-3 hover:bg-white hover:text-black border-2 transition-all duration-300 border-solid border-black uppercase text-lg font-medium"
+        >
+          Partner with O
+        </button>
+      </div>
+    </section>
+
+    <section class="wrapper py-[100px] lg:py-[150px]">
+      <div class="contain justify-center">
+        <div class="text-center">
+          <h2 class="text-black text-4xl lg:text-5xl font-bold mb-2">
+            Brand Development
+          </h2>
+          <h4 class="text-black font-normal text-base lg:text-xl">
+            CUSTOM BUILD YOUR BRAND. YOU HAVE CONTROL.
+          </h4>
+          <p class="text-[#444444] text-base text-center max-w-[820px] my-14">
+            We're here to collaborate with you in crafting a brand that
+            distinguishes your company from the rest. We have decades of
+            experience in creating successful brands and real estate companies.
+          </p>
+          <button
+            class="bg-black text-white px-7 py-3 hover:bg-white hover:text-black border-2 border-solid transition-all duration-300 border-black uppercase text-lg font-medium"
+          >
+            Get Started
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="mb-10">
+      <div class="grid lg:grid-cols-2">
+        <div class="order-2 lg:order-1 relative">
+          <img
+            class="block w-full h-full lg:absolute lg:object-cover"
+            src="./assets/platform-1.png"
+            alt="platform"
+          />
+          <img
+            class="absolute -left-[25%] -top-[40%] w-[30%] lg:w-[50%]"
+            src="./assets/ring-left.png"
+            alt="ring"
+          />
+        </div>
+        <div
+          class="order-1 lg:order-2 py-10 lg:py-24 w-[90%] mx-auto lg:mx-0 lg:w-auto lg:px-20 flex flex-col justify-center"
+        >
+          <div class="lg:max-w-[600px]">
+            <h3 class="text-4xl sm:text-5xl mb-4 font-bold leading-relaxed">
+              Real Estate Operations
+            </h3>
+            <h4 class="text-xl font-normal mb-7">
+              WE CAN LAUNCH YOUR BUSINESS QUICKLY
+            </h4>
+            <p class="text-[#444444] text-lg leading-loose">
+              Our adept Broker Operations Team will synchronize the entire
+              process of licensing, insurance, MLS membership, and listing
+              transfers from start to finish.
+            </p>
+          </div>
+        </div>
+        <div
+          class="order-3 py-10 lg:py-24 w-[90%] mx-auto lg:mx-0 lg:w-auto lg:px-20 flex flex-col justify-center items-end"
+        >
+          <div class="lg:max-w-[600px]">
+            <h3 class="text-4xl sm:text-5xl mb-4 font-bold leading-relaxed">
+              Brand Presence
+            </h3>
+            <h4 class="text-xl font-normal mb-7">MAKE YOUR MARK.</h4>
+            <p class="text-[#444444] text-lg leading-loose">
+              Boost your company's exposure with captivating marketing materials
+              and a fully adaptable website designed by We Collective.
+            </p>
+          </div>
+        </div>
+        <div class="order-4 relative">
+          <img
+            class="block w-full h-full lg:absolute lg:object-cover"
+            src="./assets/platform-2.png"
+            alt="platform"
+          />
+        </div>
+        <div class="order-6 lg:order-5 relative">
+          <img
+            class="block w-full h-full lg:absolute lg:object-cover"
+            src="./assets/platform-3.png"
+            alt="platform"
+          />
+        </div>
+        <div
+          class="order-5 lg:order-6 py-10 lg:py-24 w-[90%] mx-auto lg:mx-0 lg:w-auto lg:px-20 flex flex-col justify-center relative"
+        >
+          <div class="lg:max-w-[600px]">
+            <h3 class="text-4xl sm:text-5xl mb-4 font-bold leading-relaxed">
+              Real Estate Operations
+            </h3>
+            <h4 class="text-xl font-normal mb-7">
+              WE CAN LAUNCH YOUR BUSINESS QUICKLY
+            </h4>
+            <p class="text-[#444444] text-lg leading-loose">
+              Our adept Broker Operations Team will synchronize the entire
+              process of licensing, insurance, MLS membership, and listing
+              transfers from start to finish.
+            </p>
+          </div>
+          <img
+            class="absolute right-0 -bottom-[30%] lg:-bottom-[55%] w-[10%] lg:w-[30%]"
+            src="./assets/ring-right.png"
+            alt="ring"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="wrapper py-[100px]">
+      <div class="contain justify-center">
+        <div class="text-center max-w-[730px]">
+          <p class="text-[#444444] text-base uppercase my-4">
+            "O brought about an authentic partnership. I could maintain company
+            ownership, mold the brand, and cultivate the culture – a pivotal
+            significance in my journey."
+          </p>
+          <p class="text-[#444444] text-base uppercase">
+            – Robert Wright, Willard Wallus Realty Group
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="wrapper pt-[80px]">
+      <div class="contain justify-center">
+        <div>
+          <div class="text-center">
+            <h2 class="text-black text-4xl lg:text-5xl font-bold mb-2">
+              Additional Advantages of O:
+            </h2>
+          </div>
+
+          <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-10 mt-12">
+            <div class="relative">
+              <img src="./assets/partner-5.png" alt="partner" />
+              <div class="absolute left-14 right-0 bottom-10">
+                <div class="text-white text-xl">GROWTH</div>
+                <img
+                  class="w-8 mt-2"
+                  src="./assets/arrow-right.png"
+                  alt="arrow"
+                />
+              </div>
+            </div>
+            <div class="relative">
+              <img src="./assets/partner-6.png" alt="partner" />
+              <div class="absolute left-14 right-0 bottom-10">
+                <div class="text-white text-xl">PRODUCTIVITY</div>
+                <img
+                  class="w-8 mt-2"
+                  src="./assets/arrow-right.png"
+                  alt="arrow"
+                />
+              </div>
+            </div>
+
+            <div class="relative">
+              <img src="./assets/partner-7.png" alt="partner" />
+              <div class="absolute left-14 right-0 bottom-10">
+                <div class="text-white text-xl">COMMUNITY</div>
+                <img
+                  class="w-8 mt-2"
+                  src="./assets/arrow-right.png"
+                  alt="arrow"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="wrapper py-[100px]">
+      <div class="contain justify-center">
+        <div class="text-center">
+          <h2 class="text-black text-4xl lg:text-5xl font-bold mb-2">
+            Learning from the Pioneers
+          </h2>
+          <p class="text-[#444444] text-base text-center max-w-[670px] my-8">
+            Witness how O partners are embracing the ownership of their real
+            estate businesses and steering their own futures.
+          </p>
+          <button
+            class="bg-black text-white px-7 py-3 hover:bg-white hover:text-black border-2 border-solid transition-all duration-300 border-black uppercase text-lg font-medium"
+          >
+            LEARN MORE
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <div class="flex justify-center items-center gap-1 my-[50px] xl:my-[80px]">
+      <h4 class="text-4xl font-bold text-black">Join</h4>
+      <img src="/assets/ico.png" class="w-10 object-contain" alt="" />
+      <h4 class="text-4xl font-bold text-black">Today</h4>
+    </div>
+    <footer class="wrapper bg-dark py-10 sm:py-20">
+      <div
+        class="contain justify-start items-start flex-col gap-10 lg:gap-[100px]"
+      >
+        <div
+          class="flex justify-between w-full lg:flex-row flex-col items-start lg:items-center gap-6 lg:gap-2"
+        >
+          <h2 class="text-white font-bold text-2xl sm:text-4xl lg:text-5xl">
+            You're one click away <br />between today and your future!
+          </h2>
+          <button
+            class="bg-white text-black px-5 sm:w-auto w-full sm:px-7 py-2 sm:py-3 hover:bg-black hover:text-white border-2 border-solid transition-all duration-300 border-white uppercase text-lg font-medium"
+          >
+            Get Started
+          </button>
+        </div>
+        <div
+          class="grid grid-rows-1 xl:flex justify-between items-start gap-5 w-full"
+        >
+          <div
+            class="col-start-1 col-span-2 row-start-1 flex justify-start items-start flex-col gap-5"
+          >
+            <img
+              src="/assets/footer-logo.png"
+              class="w-[160px] object-contain"
+              alt=""
+            />
+            <p class="max-w-[300px] text-white font-normal mt-1">
+              Lorem tempor incididunt ut labore et dolore magna commodo
+              consequat.
+            </p>
+            <p class="lg:max-w-[300px] text-white font-normal">
+              © 0 Brokers. All Rights Reserved.
+            </p>
+          </div>
+          <div
+            class="flex col-start-1 col-span-1 row-start-2 justify-start items-start flex-col gap-5"
+          >
+            <h5 class="text-white font-medium text-lg">Footer Links 1</h5>
+            <a href="#" class="max-w-[300px] text-white font-normal"> Link </a>
+            <a href="#" class="max-w-[300px] text-white font-normal"> Link </a>
+            <a href="#" class="max-w-[300px] text-white font-normal"> Link </a>
+            <a href="#" class="max-w-[300px] text-white font-normal"> Link </a>
+          </div>
+          <div
+            class="flex col-start-2 col-span-1 row-start-2 justify-start items-start flex-col gap-5"
+          >
+            <h5 class="text-white font-medium text-lg">Footer Links 2</h5>
+            <a href="#" class="max-w-[300px] text-white font-normal"> Link </a>
+            <a href="#" class="max-w-[300px] text-white font-normal"> Link </a>
+            <a href="#" class="max-w-[300px] text-white font-normal"> Link </a>
+            <a href="#" class="max-w-[300px] text-white font-normal"> Link </a>
+          </div>
+          <div
+            class="flex col-start-1 col-span-2 row-start-3 justify-start items-start flex-col gap-5"
+          >
+            <div>
+              <h5 class="text-white font-medium text-lg">Follow Us</h5>
+              <p class="text-white mt-2 font-normal text-lg">
+                Subscribe for the latest updates
+              </p>
+            </div>
+            <div class="flex justify-start items-center gap-5">
+              <a href="#" target="blank">
+                <img src="/assets/fb.svg" class="w-3 object-contain" alt="" />
+              </a>
+              <a href="#" target="blank">
+                <img
+                  src="/assets/insta.svg"
+                  class="w-5 object-contain"
+                  alt=""
+                />
+              </a>
+              <a href="#" target="blank">
+                <img
+                  src="/assets/twitter.svg"
+                  class="w-5 object-contain"
+                  alt=""
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

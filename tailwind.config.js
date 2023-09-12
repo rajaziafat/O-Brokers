@@ -11,6 +11,9 @@ module.exports = {
       },
       backgroundImage: {
         hero: "url('/assets/hero.png')",
+        aboutUsHero: "url('/assets/bg-about-us-hero.png')",
+        becomePartnerHero: "url('/assets/bg-become-a-partner.png')",
+        platformHero: "url('/assets/bg-platform-hero.png')",
       },
       fontFamily: {
         sans: ["Poppins"],
